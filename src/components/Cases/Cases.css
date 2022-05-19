@@ -1,0 +1,78 @@
+.cases-wrapper{
+   display: flex;
+}
+.cases{
+   width: 400px;
+   
+}
+.cases-container{
+   padding: 30px 0 0 0;
+   margin: 0 auto;
+   width: 336px;
+   
+}
+.cases-add{
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.cases-title{
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 32px;
+}
+.add-button{
+   padding: 0px 8px;
+   display: flex;
+   align-items: center;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+   color: #595959;
+   border: 1px solid #D9D9D9;
+   border-radius: 4px;
+   background: none;
+   cursor: pointer;
+}
+
+.cases-going-title{
+   border-bottom: 1px solid #F0F0F0;  
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 22px;
+   padding: 28px 0 7px 0;
+   
+}
+.cases-going-title span{
+   color: #BFBFBF;
+   padding: 0 5px;
+}
+.cases-element{
+   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+   border-radius: 4px;
+   padding: 16px;
+   margin-top: 16px;
+}
+.cases-element.active{
+   border: 1px solid red;
+}
+.cases-element-title{
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 22px;
+   color: #262626;
+}
+.cases-element-time{
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 20px;
+   color: #BFBFBF;
+}
+.cases-info{
+   flex-grow: 1;
+}
+.case-info-container{
+   width: 540px;
+
+}
