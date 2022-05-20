@@ -79,7 +79,7 @@
  padding: 70px 0 0 0;
 }
 .case-info-wrapper{
-   background: #F9F9F9;
+   background: #F5F5F5;
    flex-grow: 1;
    margin: 0 auto;
 }
@@ -153,6 +153,8 @@ color: #595959;
    flex-grow: 1;
    margin-right: 15px;
 }
+
+
 .case-foto{
    margin-top: 15px;
    width: 100px;
